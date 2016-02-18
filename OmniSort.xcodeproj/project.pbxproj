@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77D3ED9B1C762DE3004DD839 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D3ED9A1C762DE3004DD839 /* main.cpp */; };
+		77D3ED9B1C762DE3004DD839 /* OmniSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D3ED9A1C762DE3004DD839 /* OmniSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		77D3ED971C762DE3004DD839 /* OmniSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OmniSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		77D3ED9A1C762DE3004DD839 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77D3ED9A1C762DE3004DD839 /* OmniSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OmniSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		77D3ED991C762DE3004DD839 /* OmniSort */ = {
 			isa = PBXGroup;
 			children = (
-				77D3ED9A1C762DE3004DD839 /* main.cpp */,
+				77D3ED9A1C762DE3004DD839 /* OmniSort.cpp */,
 			);
 			path = OmniSort;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D3ED9B1C762DE3004DD839 /* main.cpp in Sources */,
+				77D3ED9B1C762DE3004DD839 /* OmniSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +237,7 @@
 				77D3EDA01C762DE3004DD839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
